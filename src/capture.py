@@ -15,7 +15,7 @@ def configurar_log():
                         format='%(asctime)s - %(message)s')
     print(colored(f"El archivo {nombre_arch} donde se guardará la captura se ha generado correctamente", 'green'))
 
-# Función para capturar paquetes con un filtro(Por defecto --> se configura de la siguiente forma)
+# Función para capturar paquetes con un filtro
 def capturar_paquetes(iface="Wi-Fi", filtro_prot="tcp", num_pkts=100, tiempo_limite=None, callback = None):
     
     print(colored(f"Comenzando la captura en la interfaz: {iface} con filtro {filtro_prot}", 'yellow'))
@@ -38,12 +38,6 @@ def capturar_paquetes(iface="Wi-Fi", filtro_prot="tcp", num_pkts=100, tiempo_lim
     except Exception as e:
         print(colored(f"Error al capturar paquetes: {e}", 'red'))
 
-# Función para captura continua de paquetes
-def captura_continua(iface="Wi-Fi", filtro_prot="tcp", callback=None):
-    print(colored(f"Iniciando la captura continua en {iface} con filtro {filtro_prot}...", 'magenta'))
-    
-    capturar_paquetes(iface=iface, filtro_prot=filtro_prot, num_pkts=10000, tiempo_limite=None, callback=callback)
-
 # Función para monitorear la actividad de red
 def monitorear_red(iface="Wi-Fi", num_pkts=100, tiempo_limite=60, filtro_prot="tcp"):
     print(colored(f"Monitoreando tráfico en {iface} durante {tiempo_limite} segundos con filtro {filtro_prot}...", 'blue'))
@@ -55,16 +49,8 @@ def monitorear_red(iface="Wi-Fi", num_pkts=100, tiempo_limite=60, filtro_prot="t
     capturar_paquetes(iface=iface, filtro_prot=filtro_prot, num_pkts=num_pkts, tiempo_limite=tiempo_limite)
     print(colored("La captura de tráfico ha finalizado.", 'green'))
 
-# Función para hacer pruebas
-if __name__ == "__main__":
-    print(colored("Iniciando la captura de tráfico...", 'magenta'))
+# Función para captura continua de paquetes
+def captura_continua(iface="Wi-Fi", filtro_prot="tcp", callback=None):
+    print(colored(f"Iniciando la captura continua en {iface} con filtro {filtro_prot}...", 'magenta'))
     
-    # Configurar y capturar tráfico
-    iface = "Wi-Fi"  # interfaz usada
-    num_pkts = 20    # Número de paquetes a capturar
-    tiempo_limite = 60  # Tiempo límite en segundos
-    filtro_prot = "tcp or udp"  # Filtrar por TCP y UDP
-    
-    # Monitorear tráfico
-    monitorear_red(iface=iface, num_pkts=num_pkts, tiempo_limite=tiempo_limite, filtro_prot=filtro_prot)
-    # captura_continua(iface, filtro_prot)
+    capturar_paquetes(iface=iface, filtro_prot=filtro_prot, num_pkts=10000, tiempo_limite=None, callback=callback)

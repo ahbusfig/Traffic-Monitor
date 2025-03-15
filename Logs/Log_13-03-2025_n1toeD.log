@@ -1,20 +1,20 @@
-2025-03-13 12:51:59,239 - Ether / IPv6 / UDP / DNS Qry b'mobile.events.data.microsoft.com.'
-2025-03-13 12:51:59,240 - Ether / IPv6 / UDP / DNS Qry b'mobile.events.data.microsoft.com.'
-2025-03-13 12:51:59,241 - Ether / Dot1Q / IPv6 / UDP / DNS Ans b'mobile.events.data.trafficmanager.net.'
-2025-03-13 12:51:59,241 - Ether / Dot1Q / IPv6 / UDP / DNS Ans b'mobile.events.data.trafficmanager.net.'
-2025-03-13 12:51:59,242 - Ether / IP / TCP 192.168.1.142:1206 > 20.50.73.10:https S
-2025-03-13 12:51:59,242 - Ether / IP / TCP 192.168.1.142:1087 > 20.42.65.94:https PA / Raw
-2025-03-13 12:51:59,242 - Ether / IP / TCP 192.168.1.142:1087 > 20.42.65.94:https PA / Raw
-2025-03-13 12:51:59,244 - Ether / Dot1Q / IP / TCP 20.50.73.10:https > 192.168.1.142:1206 SA
-2025-03-13 12:51:59,245 - Ether / IP / TCP 192.168.1.142:1206 > 20.50.73.10:https A
-2025-03-13 12:51:59,245 - Ether / IP / TCP 192.168.1.142:1206 > 20.50.73.10:https PA / Raw
-2025-03-13 12:51:59,246 - Ether / Dot1Q / IP / TCP 20.50.73.10:https > 192.168.1.142:1206 PA / Raw
-2025-03-13 12:51:59,246 - Ether / IP / TCP 192.168.1.142:1206 > 20.50.73.10:https PA / Raw
-2025-03-13 12:51:59,246 - Ether / Dot1Q / IP / TCP 20.42.65.94:https > 192.168.1.142:1087 A / Padding
-2025-03-13 12:51:59,246 - Ether / Dot1Q / IP / TCP 20.42.65.94:https > 192.168.1.142:1087 PA / Raw
-2025-03-13 12:51:59,247 - Ether / Dot1Q / IP / TCP 20.50.73.10:https > 192.168.1.142:1206 A / Raw
-2025-03-13 12:51:59,247 - Ether / Dot1Q / IP / TCP 20.50.73.10:https > 192.168.1.142:1206 A / Raw
-2025-03-13 12:51:59,247 - Ether / Dot1Q / IP / TCP 20.50.73.10:https > 192.168.1.142:1206 A / Raw
-2025-03-13 12:51:59,247 - Ether / Dot1Q / IP / TCP 20.50.73.10:https > 192.168.1.142:1206 PA / Raw
-2025-03-13 12:51:59,247 - Ether / IP / TCP 192.168.1.142:1206 > 20.50.73.10:https A
-2025-03-13 12:51:59,248 - Ether / IP / TCP 192.168.1.142:1206 > 20.50.73.10:https PA / Raw
+2025-03-15 14:23:01,123 - Ether / IPv6 / UDP / DNS Qry b'analytics.service.com.'
+2025-03-15 14:23:01,124 - Ether / IPv6 / UDP / DNS Qry b'analytics.service.com.'
+2025-03-15 14:23:01,125 - Ether / Dot1Q / IPv6 / UDP / DNS Ans b'analytics.edge.network.com.'
+2025-03-15 14:23:01,126 - Ether / Dot1Q / IPv6 / UDP / DNS Ans b'analytics.edge.network.com.'
+2025-03-15 14:23:01,127 - Ether / IP / TCP 10.0.0.25:1456 > 35.190.27.43:https S
+2025-03-15 14:23:01,128 - Ether / IP / TCP 10.0.0.25:1567 > 44.220.12.88:https PA / Raw
+2025-03-15 14:23:01,129 - Ether / IP / TCP 10.0.0.25:1567 > 44.220.12.88:https PA / Raw
+2025-03-15 14:23:01,130 - Ether / Dot1Q / IP / TCP 35.190.27.43:https > 10.0.0.25:1456 SA
+2025-03-15 14:23:01,131 - Ether / IP / TCP 10.0.0.25:1456 > 35.190.27.43:https A
+2025-03-15 14:23:01,132 - Ether / IP / TCP 10.0.0.25:1456 > 35.190.27.43:https PA / Raw
+2025-03-15 14:23:01,133 - Ether / Dot1Q / IP / TCP 35.190.27.43:https > 10.0.0.25:1456 PA / Raw
+2025-03-15 14:23:01,134 - Ether / IP / TCP 10.0.0.25:1456 > 35.190.27.43:https PA / Raw
+2025-03-15 14:23:01,135 - Ether / Dot1Q / IP / TCP 44.220.12.88:https > 10.0.0.25:1567 A / Padding
+2025-03-15 14:23:01,136 - Ether / Dot1Q / IP / TCP 44.220.12.88:https > 10.0.0.25:1567 PA / Raw
+2025-03-15 14:23:01,137 - Ether / Dot1Q / IP / TCP 35.190.27.43:https > 10.0.0.25:1456 A / Raw
+2025-03-15 14:23:01,138 - Ether / Dot1Q / IP / TCP 35.190.27.43:https > 10.0.0.25:1456 A / Raw
+2025-03-15 14:23:01,139 - Ether / Dot1Q / IP / TCP 35.190.27.43:https > 10.0.0.25:1456 A / Raw
+2025-03-15 14:23:01,140 - Ether / Dot1Q / IP / TCP 35.190.27.43:https > 10.0.0.25:1456 PA / Raw
+2025-03-15 14:23:01,141 - Ether / IP / TCP 10.0.0.25:1456 > 35.190.27.43:https A
+2025-03-15 14:23:01,142 - Ether / IP / TCP 10.0.0.25:1456 > 35.190.27.43:https PA / Raw

@@ -1,0 +1,13 @@
+Frecuencia de paquetes por IP(independientemente si es orig\dst):
+IP: 10.0.0.25 --> 16 paquetes
+IP: 35.190.27.43 --> 12 paquetes
+IP: 44.220.12.88 --> 4 paquetes
+
+Frecuencia de paquetes por Protocolo:
+Protocolo: TCP --> 16 paquetes
+
+Frecuencia de pares IPs (Origen > Destino):
+De 10.0.0.25 a 35.190.27.43 --> 6 paquetes
+De 10.0.0.25 a 44.220.12.88 --> 2 paquetes
+De 35.190.27.43 a 10.0.0.25 --> 6 paquetes
+De 44.220.12.88 a 10.0.0.25 --> 2 paquetes
