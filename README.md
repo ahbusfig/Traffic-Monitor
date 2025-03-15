@@ -80,5 +80,7 @@ python main.py continua --iface "Wi-Fi" --filtro "tcp"
   - `termcolor`
   - `argparse`
   - `os` 
-
+```bash
+pip install -r requirements.txt
+```
 ---
