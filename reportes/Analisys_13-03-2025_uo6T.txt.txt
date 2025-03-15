@@ -1,0 +1,15 @@
+Frecuencia de paquetes por IP:
+IP: 192.168.1.142 --> 8 paquetes
+IP: 35.204.29.97 --> 2 paquetes
+IP: 20.42.65.94 --> 3 paquetes
+IP: 13.89.179.11 --> 3 paquetes
+
+Frecuencia de paquetes por Protocolo:
+Protocolo: TCP --> 8 paquetes
+
+Frecuencia de pares IPs (Origen > Destino):
+De 192.168.1.142 a 35.204.29.97 --> 1 paquetes
+De 35.204.29.97 a 192.168.1.142 --> 1 paquetes
+De 192.168.1.142 a 20.42.65.94 --> 3 paquetes
+De 192.168.1.142 a 13.89.179.11 --> 2 paquetes
+De 13.89.179.11 a 192.168.1.142 --> 1 paquetes

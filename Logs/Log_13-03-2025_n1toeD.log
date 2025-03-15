@@ -1,0 +1,20 @@
+2025-03-13 12:51:59,239 - Ether / IPv6 / UDP / DNS Qry b'mobile.events.data.microsoft.com.'
+2025-03-13 12:51:59,240 - Ether / IPv6 / UDP / DNS Qry b'mobile.events.data.microsoft.com.'
+2025-03-13 12:51:59,241 - Ether / Dot1Q / IPv6 / UDP / DNS Ans b'mobile.events.data.trafficmanager.net.'
+2025-03-13 12:51:59,241 - Ether / Dot1Q / IPv6 / UDP / DNS Ans b'mobile.events.data.trafficmanager.net.'
+2025-03-13 12:51:59,242 - Ether / IP / TCP 192.168.1.142:1206 > 20.50.73.10:https S
+2025-03-13 12:51:59,242 - Ether / IP / TCP 192.168.1.142:1087 > 20.42.65.94:https PA / Raw
+2025-03-13 12:51:59,242 - Ether / IP / TCP 192.168.1.142:1087 > 20.42.65.94:https PA / Raw
+2025-03-13 12:51:59,244 - Ether / Dot1Q / IP / TCP 20.50.73.10:https > 192.168.1.142:1206 SA
+2025-03-13 12:51:59,245 - Ether / IP / TCP 192.168.1.142:1206 > 20.50.73.10:https A
+2025-03-13 12:51:59,245 - Ether / IP / TCP 192.168.1.142:1206 > 20.50.73.10:https PA / Raw
+2025-03-13 12:51:59,246 - Ether / Dot1Q / IP / TCP 20.50.73.10:https > 192.168.1.142:1206 PA / Raw
+2025-03-13 12:51:59,246 - Ether / IP / TCP 192.168.1.142:1206 > 20.50.73.10:https PA / Raw
+2025-03-13 12:51:59,246 - Ether / Dot1Q / IP / TCP 20.42.65.94:https > 192.168.1.142:1087 A / Padding
+2025-03-13 12:51:59,246 - Ether / Dot1Q / IP / TCP 20.42.65.94:https > 192.168.1.142:1087 PA / Raw
+2025-03-13 12:51:59,247 - Ether / Dot1Q / IP / TCP 20.50.73.10:https > 192.168.1.142:1206 A / Raw
+2025-03-13 12:51:59,247 - Ether / Dot1Q / IP / TCP 20.50.73.10:https > 192.168.1.142:1206 A / Raw
+2025-03-13 12:51:59,247 - Ether / Dot1Q / IP / TCP 20.50.73.10:https > 192.168.1.142:1206 A / Raw
+2025-03-13 12:51:59,247 - Ether / Dot1Q / IP / TCP 20.50.73.10:https > 192.168.1.142:1206 PA / Raw
+2025-03-13 12:51:59,247 - Ether / IP / TCP 192.168.1.142:1206 > 20.50.73.10:https A
+2025-03-13 12:51:59,248 - Ether / IP / TCP 192.168.1.142:1206 > 20.50.73.10:https PA / Raw

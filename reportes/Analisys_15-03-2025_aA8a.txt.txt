@@ -1,0 +1,10 @@
+Frecuencia de paquetes por IP:
+IP: 52.44.188.77 --> 6 paquetes
+IP: 192.168.1.142 --> 6 paquetes
+
+Frecuencia de paquetes por Protocolo:
+Protocolo: TCP --> 6 paquetes
+
+Frecuencia de pares IPs (Origen > Destino):
+De 52.44.188.77 a 192.168.1.142 --> 4 paquetes
+De 192.168.1.142 a 52.44.188.77 --> 2 paquetes
